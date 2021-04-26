@@ -114,10 +114,10 @@ hr {
     gap: 25px;
     margin: 10px 0;
 }
-
 .news-cards img{
     width: 100%;
     height: 180px;
+    border: 2px solid black;
 }
 
 .news-cards h3{
@@ -136,6 +136,25 @@ hr {
 
 .news-cards a:hover{
     text-decoration: underline;    
+}
+
+
+
+/*Fotos acerca de mi*/
+
+.news-cards2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+
+}
+
+.news-cards2 img{
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+    float:left;
 }
 
 /*banner*/
@@ -162,26 +181,4 @@ hr {
     margin: 10px 0 20px 0;
 }
 
-/*banner 2*/
-.cards-banner-two{
-    width: 100%;
-    height: 350px;
-    background: url('./imagenes/banner\ 2.jpg')no-repeat center center/cover;
-    margin-bottom: 40px;
 
-}
-
-.cards-banner-two .content{
-    padding: 50px 0 0 10px;
-    color: white;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    
-}
-
-.cards-banner-two p{
-    margin: 10px 0 20px 0;
-}
