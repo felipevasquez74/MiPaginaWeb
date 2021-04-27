@@ -211,11 +211,18 @@ hr {
     font-size: 3rem;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
 
     .nav-main{
         font-size: 14px;
+        justify-content: space-between;
+        align-items: center;
+        height: 10px;
+        width: 100%;
+        padding: 20% 3px;
     }
+
+    
 
     .news-cards
     {
@@ -225,8 +232,8 @@ hr {
     .cards-banner-one .content,
     .card
     {
-        width: 100%;
-        font-size: 12px;
+        width: 200%;
+        font-size: 11px;
     }
 
     .social .links
