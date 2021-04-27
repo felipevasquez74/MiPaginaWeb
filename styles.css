@@ -252,21 +252,20 @@ hr {
 
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
-
     }
-
-
 
     .news-cards
     {
         grid-template-columns: repeat(2,1fr);
     }
 
-    .cards-banner-one .content,
-    .card
+    .cards-banner-one .content
+    
     {
-        width: 150%;
-        font-size: 11px;
+        width: 10%;
+        height: 10%;
+        font-size: 8px;
+        display:contents;
     }
 
     .social .links
